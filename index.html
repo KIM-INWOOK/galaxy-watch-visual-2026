@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>같은 갤워치인데 누구는 되고 누구는 안 된다</title>
+  <meta name="description" content="갤럭시 워치9 일부 건강기능의 연령·임신 관련 사용 조건을 스크롤 인터랙션으로 설명하는 비주얼뉴스 프로토타입" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="story">
+    <section class="hero scene" data-theme="dark">
+      <div class="hero-media parallax-media">
+        <img src="assets/scene_1_1.jpg" alt="스마트워치를 선물받아 살펴보는 10대 청소년의 손" />
+      </div>
+      <div class="hero-shade"></div>
+      <div class="hero-copy">
+        <p class="kicker">WHY &amp; NEXT · VISUAL NEWS</p>
+        <h1>같은 갤워치인데<br><em>누구는 되고</em><br>누구는 안 된다</h1>
+        <p class="dek">추석 선물로 사준 갤럭시워치.<br>17살 아들은 일부 주요 건강기능을 쓸 수 없었다.</p>
+        <div class="scroll-cue"><span></span>SCROLL</div>
+      </div>
+    </section>
+    <section class="intro-copy prose-block light">
+      <p>서울 목동에 사는 김수형씨는 추석을 맞아 17세 아들에게 삼성전자의 ‘갤럭시 워치9’을 선물했다.</p>
+      <p>아들은 러닝을 좋아하고 자전거도 자주 탄다. 각종 헬스기능이 탑재돼 일반 시계 대신 착용하기에 적합해 보였다.</p>
+      <p>그런데 설명서를 읽던 중 뜻밖의 문구 하나가 눈에 들어왔다.</p>
+      <p class="impact">“만 22세 이상만 사용 가능”</p>
+    </section>
+    <section class="scrolly age-lock" id="ageLock">
+      <div class="sticky-stage">
+        <div class="watch-shell" aria-hidden="true"><div class="watch-face"><div class="watch-label">HEALTH</div><div class="watch-feature" id="watchFeature">수면 무호흡 징후 감지</div><div class="lock-icon" id="lockIcon">🔒</div><div class="watch-state" id="watchState">사용 제한</div></div></div>
+        <div class="age-big" id="ageBig">17</div>
+      </div>
+      <div class="steps">
+        <article class="step" data-age="17" data-state="locked"><p class="step-label">17세</p><h2>워치는 찰 수 있다.<br>하지만 일부 건강기능은 잠긴다.</h2><p>22세 미만 사용자가 관련 기능을 사용하려 하면 사용 제한과 경고 문구가 나타난다.</p></article>
+        <article class="step" data-age="21.999" data-state="locked"><p class="step-label">21세 364일</p><h2>사람의 몸은 하루 만에<br>갑자기 달라지지 않는다.</h2><p>그런데 사용 가능 여부는 하나의 기준선을 사이에 두고 갈린다.</p></article>
+        <article class="step" data-age="22" data-state="open"><p class="step-label">22세</p><h2>자물쇠가 풀린다.</h2><p>이 경계는 몸의 변화보다 임상시험과 성능 검증, 허가 범위에서 만들어진 기준에 가깝다.</p></article>
+      </div>
+    </section>
+    <section class="why22 scene-section">
+      <div class="number-bg">22</div>
+      <div class="why-inner">
+        <p class="eyebrow">WHY 22?</p><h2>왜 하필<br><strong>22세</strong>일까</h2>
+        <div class="reason-flow"><span>임상시험</span><i></i><span>성능 평가</span><i></i><span>규제기관 허가</span><i></i><span>사용 조건</span></div>
+        <div class="long-copy">
+          <p>갤워치9에 만 22세 미만 연령 사용 제한이 걸린 이유는 임상시험과 성능 검증의 기준 때문이다. 해당 기능들이 소프트웨어 의료기기(SaMD)로 개발될 당시 만 22세 이상의 성인 피험자를 대상으로 임상 시험과 성능 평가가 진행됐다.</p>
+          <p>만 22세 미만 연령층에 대한 임상 데이터가 부족해 정확도를 공식적으로 담보하기 힘들기 때문에 만 22세 미만에게는 사용을 제한한 것이다.</p>
+        </div>
+      </div>
+    </section>
+    <section class="quote-section dark-section">
+      <div class="quote-mark">“</div>
+      <blockquote>삼성 헬스 모니터에서 혈압, 심전도를 측정하기 위한 애플리케이션(앱)은 미국 식품의약국(FDA) 등 규제기관에 맞춰 승인받아야 하는데 이 허가를 받기 위한 임상시험 대상이 만 22세 이상의 성인”이라며 “미국 의료기기 기준과 이에 따른 임상시험 프로토콜이 해당 나이라 글로벌 표준에 따른 것</blockquote>
+      <p class="quote-source">삼성전자 관계자</p>
+    </section>
+    <section class="sensor-story scrolly" id="sensorStory">
+      <div class="sticky-photo"><img src="assets/scene_2_2.jpg" alt="스마트워치 센서가 피부에 닿아 빛을 내는 모습" /><div class="sensor-overlay"><div class="pulse-ring r1"></div><div class="pulse-ring r2"></div><div class="pulse-ring r3"></div></div></div>
+      <div class="steps sensor-steps">
+        <article class="step"><p class="step-label">01</p><h2>센서가 몸의 신호를 읽고</h2></article>
+        <article class="step"><p class="step-label">02</p><h2>측정값이 쌓이고</h2></article>
+        <article class="step"><p class="step-label">03</p><h2>알고리즘이 분석하고</h2></article>
+        <article class="step"><p class="step-label">04</p><h2>건강정보로 바뀐다</h2><p>성인 기준으로 설계된 알고리즘과 센서 측정 수치는 미성년자에게 다소 오차가 발생할 수 있어 안전상의 이유로 제외된 것으로 알려졌다.</p></article>
+      </div>
+    </section>
+    <section class="feature-gallery light-section">
+      <div class="section-head"><p class="eyebrow">HEALTH FEATURES</p><h2>한 손목 안에<br>들어온 건강기능들</h2></div>
+      <figure class="wide-photo article-photo-slot"><img src="assets/scene_3_3.jpg" alt="심박 그래프가 표시된 스마트워치" /><figcaption>※ 실제 배포본에서는 기사 원본 ‘갤럭시 워치9에 탑재된 다양한 헬스 기능. 서소정 기자.’ 사진으로 교체</figcaption></figure>
+      <div class="feature-chips" role="list"><span>혈압</span><span>심전도</span><span>불규칙 심장 리듬</span><span>수면 무호흡 징후</span><span>체성분</span></div>
+      <div class="body-copy narrow"><p>특히 갤워치가 감지하는 심방세동 등 부정맥이나 수면 무호흡 관련 질환은 주로 성인과 고위험군 연령대에서 빈번하게 발생한다.</p><p>삼성전자는 2023년 심방세동 가능성을 감지해 알려주는 불규칙 심장 리듬 알림 기능에 대해 미 FDA와 한국 식품의약품안전처 허가를 획득했다.</p></div>
+    </section>
+    <section class="pregnancy scene-section">
+      <div class="preg-photo parallax-media"><img src="assets/scene_3_1.jpg" alt="임신부가 손목에 스마트워치를 착용한 모습" /></div><div class="preg-shade"></div>
+      <div class="preg-copy"><p class="eyebrow">NOT ONLY AGE</p><h2>22세를 넘었다고<br>모두 같은 건 아니다</h2><p>갤워치9의 수면 무호흡 징후 감지 기능은 일부 국가에서만 사용할 수 있으며, 임신 중이거나 이전에 수면 무호흡증 진단을 받은 적이 있는 경우에는 이 기능을 사용하지 말라는 안내도 함께 돼 있다.</p></div>
+    </section>
+    <section class="quote-section light-quote"><div class="quote-mark">“</div><blockquote>갤워치9이 임신부 사용 제한이 있는 줄 전혀 몰랐다”면서 “인체에 무해한 수준이더라도 영향을 미칠 수 있기 때문에 안내를 강화하면 좋을 것 같다</blockquote><p class="quote-source">30대 임신부 박지연씨</p></section>
+    <section class="bia scrolly" id="biaStory">
+      <div class="sticky-photo bia-photo"><img src="assets/scene_3_2.jpg" alt="스마트워치에 손가락을 대고 체성분을 측정하는 모습" /><div class="current-lines"><span></span><span></span><span></span></div></div>
+      <div class="steps">
+        <article class="step"><p class="step-label">BODY COMPOSITION</p><h2>임신부에게는<br>왜 주의가 필요할까</h2><p>체성분 측정 시 손가락과 워치 사이로 미세한 전류가 체내를 통과한다.</p></article>
+        <article class="step"><blockquote class="inline-quote">“임신부의 경우 체성분 측정 시 측정을 위해서 손가락과 워치 사이로 미세한 전류가 체내로 통과하는데 인체에 무해한 수준이지만 임신부는 사소한 위험이라도 영향을 미칠 수 있기 때문에 만일의 위험을 대비해 측정하지 않도록 권장하는 것”</blockquote><p class="quote-source">삼성전자 관계자</p></article>
+      </div>
+    </section>
+    <section class="approval light-section"><div class="approval-card"><p class="eyebrow">KOREA APPROVAL</p><h2>국내 허가에도<br>22세 미만 제한이 들어갔다</h2><blockquote>“삼성전자가 해당 기기에 대해 만 22세 미만 사용 불가를 사용자 주의 사항에 반영해 국내 허가를 획득했다”면서 “삼성전자는 추가적으로 사용자 연령을 낮추기 위한 절차를 진행하고 있지 않다”</blockquote><p class="quote-source">식약처 관계자</p></div></section>
+    <section class="conditions-reveal dark-section" id="conditionsReveal">
+      <div class="big-claims"><span>수면</span><span>심전도</span><span>혈압</span><span>체성분</span></div>
+      <div class="small-conditions"><span>만 22세 이상</span><span>임신 중 사용 주의</span><span>일부 국가에서 사용 가능</span><span>기존 진단 여부 확인</span></div>
+      <h2><strong>기능은 크게 보이고,</strong><br>조건은 작게 보인다.</h2><p>건강기능을 알고 사는 것과, 그 기능의 사용 조건까지 알고 사는 것은 다른 문제다.</p>
+    </section>
+    <section class="ending scene"><div class="hero-media parallax-media"><img src="assets/scene_1_1.jpg" alt="스마트워치를 살펴보는 10대 청소년" /></div><div class="hero-shade ending-shade"></div><div class="ending-copy"><p>17살 아들에게 건강관리를 위해 사준 워치.</p><h2>누가 쓸 수 있는지,<br>누가 쓸 수 없는지도<br><em>기능만큼 잘 보여야 하지 않을까.</em></h2><p class="credit">서소정 기자 · Visual News prototype</p></div></section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
